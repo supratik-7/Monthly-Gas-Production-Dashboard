@@ -1,5 +1,5 @@
-# Monthly-Gas-Production-Dashboard
-# Gas Production Dashboard
+
+# Monthly Gas Production Dashboard
 
 A comprehensive gas production analysis dashboard built with Python's Tkinter for the GUI and Matplotlib for data visualization. This project allows users to filter and visualize gas production data by field, sand, year, and month.
 
