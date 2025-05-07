@@ -18,12 +18,6 @@ root = Tk()
 root.title("GAS PRODUCTION")
 root.geometry("1200x900")
 
-icon = PhotoImage(file='Project-1\ongcLogo.png')
-root.iconphoto(True, icon)
-
-photo = Image.open("Project-1\ongcLogo.png")
-photo = photo.resize((100, 100))
-photo = ImageTk.PhotoImage(photo)
 
 selection_var = StringVar(value="Field")
 
@@ -134,7 +128,7 @@ def clear():
 
 f3 = Frame(root, bg="#004d40")
 f3.pack(pady=10, fill=X)
-Label(f3, text="---MONTHLY GAS PRODUCTION TRIPURA ASSET---", bg="#004d40", fg="white", font=("Cooper BT", 27, "bold"), image=photo, compound="left").grid(row=0, column=0, padx=20, pady=20)
+Label(f3, text="---MONTHLY GAS PRODUCTION DASHBOARD---", bg="#004d40", fg="white", font=("Cooper BT", 27, "bold")).grid(row=0, column=0, padx=20, pady=20)
 f3.grid_columnconfigure(0, weight=1)
 
 f1 = Frame(root, bg="#00695c")
