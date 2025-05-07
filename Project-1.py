@@ -134,7 +134,7 @@ def clear():
 
 f3 = Frame(root, bg="#004d40")
 f3.pack(pady=10, fill=X)
-Label(f3, text="---ONGC MONTHLY GAS PRODUCTION TRIPURA ASSET---", bg="#004d40", fg="white", font=("Cooper BT", 27, "bold"), image=photo, compound="left").grid(row=0, column=0, padx=20, pady=20)
+Label(f3, text="---MONTHLY GAS PRODUCTION TRIPURA ASSET---", bg="#004d40", fg="white", font=("Cooper BT", 27, "bold"), image=photo, compound="left").grid(row=0, column=0, padx=20, pady=20)
 f3.grid_columnconfigure(0, weight=1)
 
 f1 = Frame(root, bg="#00695c")
